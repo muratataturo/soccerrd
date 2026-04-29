@@ -4,6 +4,8 @@
 *.jpeg
 *.json
 *.__pycache__
+*.html
+
 
 *.env
 
