@@ -1,0 +1,10 @@
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.json
+*.__pycache__
+
+*.env
+
+
