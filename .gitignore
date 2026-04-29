@@ -10,3 +10,20 @@
 *.env
 
 
+# --- Python / uv ---
+# uv-managed virtual environment
+.venv/
+
+# Python bytecode / build artifacts
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# uv local cache (only present if UV_CACHE_DIR points here)
+.uv-cache/
+
+# Note: pyproject.toml, uv.lock, .python-version are intentionally tracked
+# (they define the reproducible environment for collaborators / CI)
